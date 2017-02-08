@@ -1,0 +1,19 @@
+from setuptools import setup
+
+setup(
+    name='datetime_utils',
+    packages=['datetime_utils'],
+    version='1.0.0',
+    description='A DateTime Utils library',
+    author='Martin Borba',
+    author_email='borbamartin@gmail.com',
+    url='https://github.com/borbamartin/datetime-utils',
+    download_url='https://github.com/borbamartin/datetime-utils/tarball/1.0.0',
+    keywords=['datetime', 'utils'],
+    classifiers=[],
+    install_requires=[
+        'enum34 >= 1.1.6',
+        'python-dateutil >= 2.5.3',
+        'pytz >= 2016.10',
+    ]
+)
